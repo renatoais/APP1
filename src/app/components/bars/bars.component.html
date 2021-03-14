@@ -1,0 +1,9 @@
+<!--
+<img [src]="sHeartFull" />
+<img [src]="sHeartFull" />
+<img [src]="sHeartEmpty" />
+-->
+
+<img *ngFor ="let coracao of coracoes" [src]="coracao.exibeCoracao()"/>
+
+
